@@ -52,6 +52,7 @@ def main():
                 "linux_enabled": True,
                 "linux_self_hosted": LINUX_SELF_HOSTED_MATRIX,
                 "linux_self_hosted_enabled": False,
+                "exclude": EXCLUDE,
             }
         )
     )
