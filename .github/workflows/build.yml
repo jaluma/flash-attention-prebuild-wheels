@@ -38,7 +38,7 @@ jobs:
   build_wheels_linux:
     name: Build Linux
     needs: [create_releases, create_matrix]
-    if: ${{ fromjson(needs.create_matrix.outputs.matrix).linux_enabled }}
+    if: ${{ fromjson(needs.create_matrix.outputs.matrix).linux_enabled == true }}
     strategy:
       fail-fast: false
       matrix:
@@ -58,7 +58,7 @@ jobs:
   build_wheels_linux_self_hosted:
     name: Build Linux (self-hosted)
     needs: [create_releases, create_matrix]
-    if: ${{ fromjson(needs.create_matrix.outputs.matrix).linux_self_hoste_enabled }}
+    if: ${{ fromjson(needs.create_matrix.outputs.matrix).linux_self_hosted_enabled == true }}
     strategy:
       fail-fast: false
       matrix:
