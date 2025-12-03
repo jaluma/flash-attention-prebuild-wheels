@@ -1,5 +1,16 @@
 ## History
 
+### v2.8.3+cu129torch2.9-cp312
+
+[Release](https://github.com/jaluma/flash-attention-prebuild-wheels/releases/tag/v2.8.3+cu129torch2.9-cp312)
+
+#### Linux x86_64
+
+| Flash-Attention | Python | PyTorch | CUDA |
+| --- | --- | --- | --- |
+| 2.8.3 | 3.12 | 2.9 | 12.9 |
+
+
 ### v0.5.4
 
 [Release](https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/tag/v0.5.4)
